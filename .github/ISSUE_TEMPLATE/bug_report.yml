@@ -1,0 +1,98 @@
+{
+  "name": "오류 제보",
+  "description": "작동 오류나 화면 문제를 알려 주세요.",
+  "title": "[오류] ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "공개 게시판입니다. API 키·비밀번호·토큰·개인 파일·다운로드 링크는 올리지 마세요. 화면을 첨부할 때 개인 정보는 가려 주세요."
+      }
+    },
+    {
+      "type": "input",
+      "id": "app-version",
+      "attributes": {
+        "label": "워크킷 버전",
+        "placeholder": "설정 → 앱 정보·업데이트에서 확인"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "feature",
+      "attributes": {
+        "label": "사용 기능",
+        "options": [
+          "유튜브 수집",
+          "인스타그램 수집",
+          "파일 변환",
+          "압축·분할 압축",
+          "대용량 링크",
+          "디스크 용량 분석",
+          "설정·설치·업데이트",
+          "기타"
+        ]
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "windows",
+      "attributes": {
+        "label": "Windows 버전",
+        "placeholder": "Windows 11 또는 Windows 10"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "problem",
+      "attributes": {
+        "label": "문제 상황",
+        "description": "어떤 문제가 생겼고, 원래 어떻게 되길 기대했나요?"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "steps",
+      "attributes": {
+        "label": "다시 확인하는 방법",
+        "placeholder": "1. 기능 선택\n2. 설정 또는 파일 추가\n3. 문제가 생긴 단계"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "error",
+      "attributes": {
+        "label": "오류 문구 또는 화면 (선택)",
+        "description": "회사명·계정·파일 경로·링크를 가리고 첨부해 주세요."
+      }
+    },
+    {
+      "type": "checkboxes",
+      "id": "privacy",
+      "attributes": {
+        "label": "공개 정보 확인",
+        "options": [
+          {
+            "label": "개인 정보와 인증 정보를 제외했습니다.",
+            "required": true
+          }
+        ]
+      }
+    }
+  ]
+}

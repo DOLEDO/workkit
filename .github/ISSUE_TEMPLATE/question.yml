@@ -1,0 +1,68 @@
+{
+  "name": "사용 문의",
+  "description": "설치·연결·사용 방법을 물어보세요.",
+  "title": "[문의] ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "공개 게시판입니다. API 키·비밀번호·토큰·개인 파일·다운로드 링크는 올리지 마세요. 화면을 첨부할 때 개인 정보는 가려 주세요."
+      }
+    },
+    {
+      "type": "input",
+      "id": "app-version",
+      "attributes": {
+        "label": "워크킷 버전",
+        "placeholder": "설정 → 앱 정보·업데이트에서 확인"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "feature",
+      "attributes": {
+        "label": "사용 기능",
+        "options": [
+          "유튜브 수집",
+          "인스타그램 수집",
+          "파일 변환",
+          "압축·분할 압축",
+          "대용량 링크",
+          "디스크 용량 분석",
+          "설정·설치·업데이트",
+          "기타"
+        ]
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "question",
+      "attributes": {
+        "label": "궁금한 점",
+        "description": "어느 단계에서 무엇이 어려운지 적어 주세요."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "checkboxes",
+      "id": "privacy",
+      "attributes": {
+        "label": "공개 정보 확인",
+        "options": [
+          {
+            "label": "개인 정보와 인증 정보를 제외했습니다.",
+            "required": true
+          }
+        ]
+      }
+    }
+  ]
+}

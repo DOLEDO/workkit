@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 사용법 먼저 보기
+    url: https://doledo.github.io/workkit/help.html
+    about: 설치·저장·연결 방법을 확인하세요.
