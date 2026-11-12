@@ -1,0 +1,9 @@
+*.exe
+*.zip
+client_secret*.json
+client.json
+settings.json
+.env*
+*.dat
+*.log
+qa-results/
