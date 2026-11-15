@@ -9,7 +9,7 @@ Windows용 파일 작업·소셜 수집·저장 공간 도구의 공식 배포 �
 - [배포 파일](https://github.com/DOLEDO/workkit/releases)
 - [문의](https://github.com/DOLEDO/workkit/issues)
 
-Windows x64용 [1.0.1 설치 파일](https://github.com/DOLEDO/workkit/releases/download/v1.0.1/WorkKit-1.0.1-Setup-x64.exe)을 다운로드할 수 있습니다. Google Drive는 BETA · 심사 중이며 일부 계정은 연결이 제한될 수 있습니다. Google 공식 승인 완료를 의미하지 않습니다.
+Windows x64용 [1.0.2 설치 파일](https://github.com/DOLEDO/workkit/releases/download/v1.0.2/WorkKit-1.0.2-Setup-x64.exe)을 다운로드할 수 있습니다. Google Drive는 BETA · 심사 중이며 일부 계정은 연결이 제한될 수 있습니다. Google 공식 승인 완료를 의미하지 않습니다.
 
 운영자: DOLEDO. 개발 소스·인증 정보·사용자 데이터는 이 저장소에 포함하지 않습니다. 로고와 제품의 권리는 권리자에게 있으며 포함된 글꼴은 `docs/assets/OFL.txt`를 따릅니다.
 
