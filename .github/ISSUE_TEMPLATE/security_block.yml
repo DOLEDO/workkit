@@ -1,0 +1,93 @@
+{
+  "name": "설치·백신 차단",
+  "description": "백신 탐지 또는 설치·실행 차단을 알려 주세요.",
+  "title": "[설치·차단] ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "공개 게시판입니다. 화면에서 계정·회사명·개인 경로를 가려 주세요. 실행 파일·개인 파일·API 키·로그인 정보는 첨부하지 마세요. 백신을 끄거나 예외로 등록할 필요는 없습니다."
+      }
+    },
+    {
+      "type": "input",
+      "id": "app-version",
+      "attributes": {
+        "label": "워크킷 버전",
+        "placeholder": "예: 1.0.2 (설치 파일 이름에서도 확인 가능)"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "security-product",
+      "attributes": {
+        "label": "차단한 제품",
+        "placeholder": "예: V3 Lite / V3 Internet Security / Windows 보안 / 확인 안 됨"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "stage",
+      "attributes": {
+        "label": "차단된 단계",
+        "options": [
+          "다운로드",
+          "설치",
+          "앱 실행",
+          "기능 사용 중",
+          "업데이트",
+          "잘 모르겠음"
+        ]
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "detection",
+      "attributes": {
+        "label": "탐지명·차단 문구",
+        "placeholder": "화면에 나온 문구 그대로. 없으면 확인 안 됨."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "filename",
+      "attributes": {
+        "label": "차단된 파일명 (선택)",
+        "placeholder": "예: FileTools.exe / chrome.exe / WorkKit-1.0.2-Setup-x64.exe"
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "details",
+      "attributes": {
+        "label": "상황·화면 (선택)",
+        "description": "Windows 버전, 백신 엔진 날짜, 발생 시각도 있으면 적어 주세요. 개인 정보는 가려 주세요."
+      }
+    },
+    {
+      "type": "checkboxes",
+      "id": "privacy",
+      "attributes": {
+        "label": "공개 정보 확인",
+        "options": [
+          {
+            "label": "개인 정보와 인증 정보를 제외했습니다.",
+            "required": true
+          }
+        ]
+      }
+    }
+  ]
+}
